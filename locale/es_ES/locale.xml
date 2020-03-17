@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
-
 <!--
-  * plugins/generic/embedGalley/locale/es_ES/locale.xml
+  * plugins/generic/returningAuthorScreening/locale/es_ES/locale.xml
   *
-  * Copyright (c) 2014-2017 Simon Fraser University
-  * Copyright (c) 2003-2017 John Willinsky
-  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
-  *
-  * embedGalley plugin localization strings
+  * Copyright (c) 2014-2020 Simon Fraser University
+  * Copyright (c) 2017-2020 John Willinsky
+  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
+  * Localization information: https://forum.pkp.sfu.ca/c/translations
   -->
- 
 <locale name="es_ES" full_name="Español (España)">
-	<message key="plugins.generic.embedGalley.displayName">Módulo EmbedGalley</message>
-	<message key="plugins.generic.embedGalley.description">Convierte JATS XML a HTML y lo visualiza en el resumen del artículo</message>
+	<message key="plugins.generic.returningAuthorScreening.displayName">Módulo Chequeo autor recurrente</message>
+	<message key="plugins.generic.returningAuthorScreening.description">Reglas: Los autores solo pueden publicar si tienen publicaciones anteriores en el mismo servidor.</message>
+	<message key="plugins.generic.returningAuthorScreening.required.publishedBefore">Debe tener al menos una publicación publicada en este servidor.</message>
 </locale>
