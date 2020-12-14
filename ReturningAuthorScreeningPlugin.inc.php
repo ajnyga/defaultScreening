@@ -184,7 +184,7 @@ class ReturningAuthorScreeningPlugin extends GenericPlugin {
 		foreach ($submissionsIterator as $submission) {
 			$stageAssignmentDao = DAORegistry::getDAO('StageAssignmentDAO');
 	 		$usersAssignments = $stageAssignmentDao->getBySubmissionAndRoleId($submission->getId(), ROLE_ID_AUTHOR, null, $userId);
-	 		if (!$usersAssignments->wasEmpty()){
+	 		if ($usersAssignments){
 	 			return true;
 	 		}
  		}
@@ -204,7 +204,7 @@ class ReturningAuthorScreeningPlugin extends GenericPlugin {
 	function _isAuthor($userId, $submissionId) {
 		$stageAssignmentDao = DAORegistry::getDAO('StageAssignmentDAO');
 		$usersAssignments = $stageAssignmentDao->getBySubmissionAndRoleId($submissionId, ROLE_ID_AUTHOR, WORKFLOW_STAGE_ID_PRODUCTION, $userId);
-		if (!$usersAssignments->wasEmpty()){
+		if ($usersAssignments){
 			return true;
 		}
 		return false;
