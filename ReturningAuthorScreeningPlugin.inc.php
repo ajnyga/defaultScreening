@@ -112,11 +112,12 @@ class ReturningAuthorScreeningPlugin extends GenericPlugin {
 
 		// Only apply rules to authors, editors can always publish if other criteria is met
 		if ($this->_isAuthor($currentUser->getId(), $publication->getData('submissionId'))){
-
 			$errors = array_merge(
 				$errors,
 				$this->applyRules($currentUser->getId(), $currentContext->getId(), $publication->getData('submissionId'))
 			);
+
+
 
 		}
 		return false;
@@ -184,9 +185,9 @@ class ReturningAuthorScreeningPlugin extends GenericPlugin {
 		foreach ($submissionsIterator as $submission) {
 			$stageAssignmentDao = DAORegistry::getDAO('StageAssignmentDAO');
 	 		$usersAssignments = $stageAssignmentDao->getBySubmissionAndRoleId($submission->getId(), ROLE_ID_AUTHOR, null, $userId);
-	 		if ($usersAssignments){
-	 			return true;
-	 		}
+			while ($assignment = $usersAssignments->next()) {
+				return true;
+			}	 		
  		}
 		return false;
 	}
@@ -204,9 +205,11 @@ class ReturningAuthorScreeningPlugin extends GenericPlugin {
 	function _isAuthor($userId, $submissionId) {
 		$stageAssignmentDao = DAORegistry::getDAO('StageAssignmentDAO');
 		$usersAssignments = $stageAssignmentDao->getBySubmissionAndRoleId($submissionId, ROLE_ID_AUTHOR, WORKFLOW_STAGE_ID_PRODUCTION, $userId);
-		if ($usersAssignments){
+
+		while ($assignment = $usersAssignments->next()) {
 			return true;
 		}
+
 		return false;
 	}
 
