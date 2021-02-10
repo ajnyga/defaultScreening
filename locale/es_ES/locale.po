@@ -14,10 +14,6 @@ msgstr ""
 msgid "plugins.generic.returningAuthorScreening.displayName"
 msgstr "Módulo Returning Author Screening"
 
-msgid "plugins.generic.returningAuthorScreening.required.publishedBefore"
-msgstr ""
-"Necesita tener como mínimo un preprint publicado en este servidor. El primer "
-"preprint deberá ser aprobado por el moderador."
 
 msgid "plugins.generic.returningAuthorScreening.description"
 msgstr ""

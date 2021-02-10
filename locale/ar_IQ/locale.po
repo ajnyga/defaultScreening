@@ -12,11 +12,6 @@ msgstr ""
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-msgid "plugins.generic.returningAuthorScreening.required.publishedBefore"
-msgstr ""
-"ينبغي أن تكون لديك مسودة منشورة واحدة على الأقل في هذا الملقم. المسودة "
-"الأولى ينبغي أن يصادق عليها مشرف ما."
-
 msgid "plugins.generic.returningAuthorScreening.description"
 msgstr ""
 "القواعد: يمكن للمؤلفين النشر حصراً إذا كان لديهم أعمال محضرة سابقة في نفس "

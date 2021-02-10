@@ -11,11 +11,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-msgid "plugins.generic.returningAuthorScreening.required.publishedBefore"
-msgstr ""
-"Du skal have mindst et publiceret preprint på denne server. Det første "
-"preprint skal godkendes af en moderator."
-
 msgid "plugins.generic.returningAuthorScreening.description"
 msgstr ""
 "Regler: Forfattere kan kun indsende, hvis de har tidligere preprints på den "

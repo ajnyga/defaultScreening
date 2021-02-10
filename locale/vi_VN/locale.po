@@ -11,11 +11,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-msgid "plugins.generic.returningAuthorScreening.required.publishedBefore"
-msgstr ""
-"Bạn cần phải có ít nhất một bản in được xuất bản trên máy chủ này. Bản in "
-"đầu tiên phải được người điều hành chấp thuận."
-
 msgid "plugins.generic.returningAuthorScreening.description"
 msgstr ""
 "Quy tắc: Tác giả chỉ có thể xuất bản nếu họ có các ấn phẩm trước đó trên "

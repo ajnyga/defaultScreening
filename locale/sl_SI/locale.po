@@ -12,11 +12,6 @@ msgstr ""
 "n%100==4 ? 2 : 3;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-msgid "plugins.generic.returningAuthorScreening.required.publishedBefore"
-msgstr ""
-"Na strežniku morate imeti že izdano objavo. Prva objava mora biti odobrena s "
-"strani moderatorja."
-
 msgid "plugins.generic.returningAuthorScreening.description"
 msgstr ""
 "Pravilo: Avtorji lahko objavljajo le, če so v preteklosti že kaj objavili na "

@@ -12,11 +12,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-msgid "plugins.generic.returningAuthorScreening.required.publishedBefore"
-msgstr ""
-"Vous devez avoir au moins une prépublication publiée sur ce serveur. La "
-"première prépublication doit être approuvée par un-e modérateur-trice."
-
 msgid "plugins.generic.returningAuthorScreening.description"
 msgstr ""
 "Règles : les auteurs-es ne peuvent diffuser que si ils ou elles ont des "

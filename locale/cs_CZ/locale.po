@@ -11,11 +11,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-msgid "plugins.generic.returningAuthorScreening.required.publishedBefore"
-msgstr ""
-"Musíte mít na tomto serveru alespoň jeden preprint. První preprint musí být "
-"schválen moderátorem."
-
 msgid "plugins.generic.returningAuthorScreening.description"
 msgstr ""
 "Pravidlo: Autoři mohou zasílat příspěvky pouze, pokud mají předchozí "

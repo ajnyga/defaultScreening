@@ -11,11 +11,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 3.9.1\n"
 
-msgid "plugins.generic.returningAuthorScreening.required.publishedBefore"
-msgstr ""
-"Bu sunucuda yayınlanan en az bir ön baskıya sahip olmanız gerekir. İlk ön "
-"baskı bir moderatör tarafından onaylanmalıdır."
-
 msgid "plugins.generic.returningAuthorScreening.description"
 msgstr ""
 "Kurallar: Yazarlar yalnızca aynı sunucuda daha önceden yayınları varsa "
